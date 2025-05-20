@@ -6,8 +6,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
+    gap: 2.5rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     box-sizing: border-box;
   }
