@@ -1,0 +1,248 @@
+.community-container {
+            max-width: 1000px;
+            margin: auto;
+            margin-top: 40px;
+            background-color: white;
+            border: 17px solid #ef7d0a;
+            position: relative;
+            width: 100%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        
+        .community-container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, #ff8e6e, #ff7043, #ff5722);
+            z-index: -1;
+            padding: 4px;
+            margin: -4px;
+        }
+        
+        .community-wrapper {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            margin: auto;
+            background-color: white;
+            background-image: radial-gradient(#c6bbbb 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        
+        .home-cook-section, .our-people-section {
+            width: 48%;
+        }
+        
+        .section-title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 0 rgba(255, 215, 0, 0.5);
+            color: transparent;
+            -webkit-text-stroke: 1px #e67e22;
+            background: linear-gradient(to right, #f1c40f, #e67e22);
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        
+        .section-description {
+            font-size: 16px;
+            color: #444;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        
+        .learn-more-link, .leadership-link, .contributors-link, .test-kitchen-link {
+            display: inline-flex;
+            align-items: center;
+            color: #e67e22;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        
+        .learn-more-link::after, .leadership-link::after, 
+        .contributors-link::after, .test-kitchen-link::after {
+            content: "→";
+            margin-left: 5px;
+        }
+        
+        .featured-recipe {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        
+        .map-container {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+        
+        .region-map {
+            width: 100%;
+            height: 100%;
+            background-color: #ff7043;
+            mask-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Quebec_in_Canada.svg');
+            -webkit-mask-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Quebec_in_Canada.svg');
+            mask-size: contain;
+            -webkit-mask-size: contain;
+            mask-repeat: no-repeat;
+            -webkit-mask-repeat: no-repeat;
+            mask-position: center;
+            -webkit-mask-position: center;
+        }
+        
+        .cook-avatar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 3px solid white;
+            overflow: hidden;
+        }
+        
+        .cook-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .recipe-content {
+            flex: 1;
+        }
+        
+        .recipe-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .recipe-quote {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        
+        .recipe-author {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            text-transform: uppercase;
+        }
+        
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 5px;
+        }
+        
+        .pagination-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #ccc;
+        }
+        
+        .pagination-dot.active {
+            background-color: #333;
+        }
+        
+        .social-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            max-width: 500px;
+        }
+        
+        .social-stat {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .social-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            background-color: #333;
+            mask-size: contain;
+            -webkit-mask-size: contain;
+            mask-repeat: no-repeat;
+            -webkit-mask-repeat: no-repeat;
+        }
+        
+        .facebook-icon {
+            mask-image: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg');
+            -webkit-mask-image: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg');
+        }
+        
+        .instagram-icon {
+            mask-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg');
+            -webkit-mask-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg');
+        }
+        
+        .pinterest-icon {
+            mask-image: url('https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png');
+            -webkit-mask-image: url('https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png');
+        }
+        
+        .tiktok-icon {
+            mask-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png');
+            -webkit-mask-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png');
+        }
+        
+        .youtube-icon {
+            mask-image: url('https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg');
+            -webkit-mask-image: url('https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg');
+        }
+        
+        .team-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .team-section {
+            margin-bottom: 30px;
+        }
+        
+        .team-member {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid;
+        }
+        
+        .leadership-member {
+            border-color: #e67e22;
+        }
+        
+        .contributors-member {
+            border-color: #f1c40f;
+        }
+        
+        .test-kitchen-member {
+            border-color: #2ecc71;
+        }
+        
+        .team-member img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }

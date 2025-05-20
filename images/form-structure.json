@@ -1,0 +1,59 @@
+[
+  {
+    "id": "element-1747672190660-0",
+    "type": "text",
+    "label": "Name",
+    "properties": {
+      "placeholder": "",
+      "defaultValue": "",
+      "helpText": "",
+      "conditional": false,
+      "validation": {
+        "required": false
+      }
+    }
+  },
+  {
+    "id": "element-1747672200581-1",
+    "type": "email",
+    "label": "Email",
+    "properties": {
+      "placeholder": "",
+      "defaultValue": "",
+      "helpText": "",
+      "conditional": false,
+      "validation": {
+        "required": false
+      }
+    }
+  },
+  {
+    "id": "element-1747672207705-2",
+    "type": "fileupload",
+    "label": "File Upload",
+    "properties": {
+      "placeholder": "",
+      "defaultValue": "",
+      "helpText": "",
+      "conditional": false,
+      "validation": {
+        "required": false
+      },
+      "acceptedTypes": ".jpg,.png,.pdf"
+    }
+  },
+  {
+    "id": "element-1747672215635-3",
+    "type": "datepicker",
+    "label": "Bithday",
+    "properties": {
+      "placeholder": "",
+      "defaultValue": "",
+      "helpText": "",
+      "conditional": false,
+      "validation": {
+        "required": false
+      }
+    }
+  }
+]

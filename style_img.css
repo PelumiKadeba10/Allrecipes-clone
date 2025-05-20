@@ -1,0 +1,48 @@
+.stuff-cont {
+    background: url('/images/img17.webp');
+    background-size: cover;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.stuff-2-cont {
+    background: url('/images/img23.webp');
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.stuff-cont, .stuff-2-cont {
+    position: relative;
+}
+
+.box-container {
+    position: absolute;
+    top: 30px;        /* Distance from the top of parent */
+    left: 30px;       
+    max-width: 30%;
+    background-color: white;
+    padding: 10px 10px 15px 15px;
+}
+
+.box-container{
+    max-width: 30%;
+    background-color: white;
+    padding: 10px 10px 15px 15px;
+    margin-left: 30px;
+}
+
+.box-head{
+    color: rgb(154, 154, 154);
+    font-size: 20px;
+}
+
+.box-link{
+    font-size: 20px;   
+}
+
+.box-link:hover{
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    text-decoration-thickness: 1px;
+}
