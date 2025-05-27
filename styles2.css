@@ -90,7 +90,6 @@
   }
   
   .article-meta {
-    
     padding: 15px;
     margin-top: -5px;
   }
@@ -166,7 +165,6 @@
     position: absolute;
     top: 5px;
     right: 5px;
-    background-color: rgba(255, 255, 255, 0.8);
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -175,23 +173,18 @@
     justify-content: center;
     cursor: pointer;
   }
-  
+
+  .heart-icon i {
+  font-size: 25px;     /* Adjust size as needed */
+  color: white;        /* White fill */
+  cursor: pointer;
+}
   .heart {
     width: 15px;
     height: 15px;
     background-color: white;
     position: relative;
     transform: rotate(-45deg);
-  }
-  
-  .heart::before,
-  .heart::after {
-    content: "";
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    border-radius: 50%;
-    background-color: white;
   }
   
   .heart::before {
@@ -202,6 +195,10 @@
   .heart::after {
     top: 0;
     right: -7.5px;
+  }
+
+  .heart:hover{
+    background-color: red;
   }
   
   .recipe-info {
