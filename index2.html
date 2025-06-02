@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allrecipes | Recipes, How-Tos, Videos and More</title>
+    <link rel="stylesheet" href="app.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="fullContainer">
+        <nav id="nav1" style="z-index: 1000;">
+            <ul>
+                <a href="#">
+                    <li class="nav1links">
+                        <img src="/public/Allrecipes_Logo.jpg" id="logo" alt="All recipes logo">
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="nav1links">
+                        <div>
+                            <form>
+                                <div id="formInput">
+                                    <input type="text" name="Find" id="searchReciepe" placeholder="Find recipe or ingredient">
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+                </a>
+                <li class="nav1links">
+                    <a href="#">
+                        <div id="login">
+                        <img src="/public/login.png" alt="User">
+                        <p>Log In</p>
+                        </div>
+                    </a>
+                    </li>
+
+                    <!-- DROPDOWN -->
+                <li style="width: max-content !important;" class="dropdown-toggle dropdown">
+                    <div class="navDivider nav1links">
+                        Magazine 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-chevron-down">
+                        <path d="m6 9 6 6 6-6" />
+                        </svg>
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">5-Ingredient Dinners</a>
+                        <a href="#" class="dropdown-item">One-Pot Meals</a>
+                        <a href="#" class="dropdown-item">Quick & Easy</a>
+                        <a href="#" class="dropdown-item">30-Minute Meals</a>
+                        <a href="#" class="dropdown-item">Family Dinners</a>
+                        <a href="#" class="dropdown-item">Soups, Stews & Chili</a>
+                        <a href="#" class="dropdown-item">Comfort Food</a>
+                        <a href="#" class="dropdown-item">Main Dishes</a>
+                        <a href="#" class="dropdown-item">Sheet Pan Dinners</a>
+                        <a href="#" class="dropdown-item">View All</a>
+                    </div>
+                </li>
+                <a href="#">
+                    <li class="nav1links">
+                        Newsletters
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="nav1links navDivider">
+                        Sweepstakes
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="nav1links">
+                        <img src="/public/myrecipe.png" alt="My Recipe">
+                    </li>
+                </a>
+            </ul>
+        </nav>   
+        <nav id="nav2">
+            <ul>
+                <li class="dropdown">
+                    <div class="dropdown-toggle">
+                        DINNERS
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item"> 5-Ingredient Dinners</a>
+                        <a href="#" class="dropdown-item"> One-Pot Meals</a>
+                        <a href="#" class="dropdown-item"> Quick & Easy</a>
+                        <a href="#" class="dropdown-item"> 30-Minute Meals</a>
+                        <a href="#" class="dropdown-item"> Family Dinners</a>
+                        <a href="#" class="dropdown-item"> Soups, Stews & Chili</a>
+                        <a href="#" class="dropdown-item"> Comfort Food</a>
+                        <a href="#" class="dropdown-item"> Main Dishes</a>
+                        <a href="#" class="dropdown-item"> Sheet Pan Dinners</a>
+                        <a href="#" class="dropdown-item">Log View All</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <div class="dropdown-toggle">
+                        MEALS
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item"> 5-Ingredient Dinners</a>
+                        <a href="#" class="dropdown-item"> One-Pot Meals</a>
+                        <a href="#" class="dropdown-item"> Quick & Easy</a>
+                        <a href="#" class="dropdown-item"> 30-Minute Meals</a>
+                        <a href="#" class="dropdown-item"> Family Dinners</a>
+                        <a href="#" class="dropdown-item"> Soups, Stews & Chili</a>
+                        <a href="#" class="dropdown-item"> Comfort Food</a>
+                        <a href="#" class="dropdown-item"> Main Dishes</a>
+                        <a href="#" class="dropdown-item"> Sheet Pan Dinners</a>
+                        <a href="#" class="dropdown-item">Log View All</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <div class="dropdown-toggle">
+                        INGREDIENTS
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item"> 5-Ingredient Dinners</a>
+                        <a href="#" class="dropdown-item"> One-Pot Meals</a>
+                        <a href="#" class="dropdown-item"> Quick & Easy</a>
+                        <a href="#" class="dropdown-item"> 30-Minute Meals</a>
+                        <a href="#" class="dropdown-item"> Family Dinners</a>
+                        <a href="#" class="dropdown-item"> Soups, Stews & Chili</a>
+                        <a href="#" class="dropdown-item"> Comfort Food</a>
+                        <a href="#" class="dropdown-item"> Main Dishes</a>
+                        <a href="#" class="dropdown-item"> Sheet Pan Dinners</a>
+                        <a href="#" class="dropdown-item">Log View All</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <div class="dropdown-toggle">
+                        OCCASIONS
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item"> 5-Ingredient Dinners</a>
+                        <a href="#" class="dropdown-item"> One-Pot Meals</a>
+                        <a href="#" class="dropdown-item"> Quick & Easy</a>
+                        <a href="#" class="dropdown-item"> 30-Minute Meals</a>
+                        <a href="#" class="dropdown-item"> Family Dinners</a>
+                        <a href="#" class="dropdown-item"> Soups, Stews & Chili</a>
+                        <a href="#" class="dropdown-item"> Comfort Food</a>
+                        <a href="#" class="dropdown-item"> Main Dishes</a>
+                        <a href="#" class="dropdown-item"> Sheet Pan Dinners</a>
+                        <a href="#" class="dropdown-item">Log View All</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <div class="dropdown-toggle">
+                        CUISINES
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item"> 5-Ingredient Dinners</a>
+                        <a href="#" class="dropdown-item"> One-Pot Meals</a>
+                        <a href="#" class="dropdown-item"> Quick & Easy</a>
+                        <a href="#" class="dropdown-item"> 30-Minute Meals</a>
+                        <a href="#" class="dropdown-item"> Family Dinners</a>
+                        <a href="#" class="dropdown-item"> Soups, Stews & Chili</a>
+                        <a href="#" class="dropdown-item"> Comfort Food</a>
+                        <a href="#" class="dropdown-item"> Main Dishes</a>
+                        <a href="#" class="dropdown-item"> Sheet Pan Dinners</a>
+                        <a href="#" class="dropdown-item">Log View All</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <div class="dropdown-toggle">
+                        KITCHEN TIPS
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item"> 5-Ingredient Dinners</a>
+                        <a href="#" class="dropdown-item"> One-Pot Meals</a>
+                        <a href="#" class="dropdown-item"> Quick & Easy</a>
+                        <a href="#" class="dropdown-item"> 30-Minute Meals</a>
+                        <a href="#" class="dropdown-item"> Family Dinners</a>
+                        <a href="#" class="dropdown-item"> Soups, Stews & Chili</a>
+                        <a href="#" class="dropdown-item"> Comfort Food</a>
+                        <a href="#" class="dropdown-item"> Main Dishes</a>
+                        <a href="#" class="dropdown-item"> Sheet Pan Dinners</a>
+                        <a href="#" class="dropdown-item">Log View All</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <div class="dropdown-toggle">
+                        NEWS
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item"> 5-Ingredient Dinners</a>
+                        <a href="#" class="dropdown-item"> One-Pot Meals</a>
+                        <a href="#" class="dropdown-item"> Quick & Easy</a>
+                        <a href="#" class="dropdown-item"> 30-Minute Meals</a>
+                        <a href="#" class="dropdown-item"> Family Dinners</a>
+                        <a href="#" class="dropdown-item"> Soups, Stews & Chili</a>
+                        <a href="#" class="dropdown-item"> Comfort Food</a>
+                        <a href="#" class="dropdown-item"> Main Dishes</a>
+                        <a href="#" class="dropdown-item"> Sheet Pan Dinners</a>
+                        <a href="#" class="dropdown-item">Log View All</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <div class="dropdown-toggle">
+                        FEATURES
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item"> 5-Ingredient Dinners</a>
+                        <a href="#" class="dropdown-item"> One-Pot Meals</a>
+                        <a href="#" class="dropdown-item"> Quick & Easy</a>
+                        <a href="#" class="dropdown-item"> 30-Minute Meals</a>
+                        <a href="#" class="dropdown-item"> Family Dinners</a>
+                        <a href="#" class="dropdown-item"> Soups, Stews & Chili</a>
+                        <a href="#" class="dropdown-item"> Comfort Food</a>
+                        <a href="#" class="dropdown-item"> Main Dishes</a>
+                        <a href="#" class="dropdown-item"> Sheet Pan Dinners</a>
+                        <a href="#" class="dropdown-item">Log View All</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <div class="dropdown-toggle">
+                        ABOUT US
+                    </div>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item"> 5-Ingredient Dinners</a>
+                        <a href="#" class="dropdown-item"> One-Pot Meals</a>
+                        <a href="#" class="dropdown-item"> Quick & Easy</a>
+                        <a href="#" class="dropdown-item"> 30-Minute Meals</a>
+                        <a href="#" class="dropdown-item"> Family Dinners</a>
+                        <a href="#" class="dropdown-item"> Soups, Stews & Chili</a>
+                        <a href="#" class="dropdown-item"> Comfort Food</a>
+                        <a href="#" class="dropdown-item"> Main Dishes</a>
+                        <a href="#" class="dropdown-item"> Sheet Pan Dinners</a>
+                        <a href="#" class="dropdown-item">Log View All</a>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <a href="#">GET THE MAGAZINE</a>
+            </div>
+        </nav>
+        <nav id="nav3">
+            <div id='logo3'>
+                <label for="sidebarToggle">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <img src="/public/Allrecipes_Logo.jpg" id="logo" alt="All recipes logo">
+            </div>
+            <ul>
+                <a href="#">
+                    <li class="nav1links">
+                        <div>
+                            <form>
+                                <div id="formInput">
+                                    <input type="text" name="Find" id="searchReciepe" placeholder="Find recipe or ingredient">
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="nav1links">
+                        <div id="login">
+                            <img src="/public/login.png" alt="User">
+                            <p class="navDivider2">Log In</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="nav1links">
+                        <img src="/public/myrecipe2.png" alt="My Recipe">
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <input type="checkbox" name="sidebarToggle" id="sidebarToggle" style="display:none;">
+        <aside id="sidebar">
+            <div id="sidebarHeader">
+                <label for="sidebarToggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x-icon lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                </label>
+                <img src="/public/Allrecipes_Logo.jpg" alt="All recipes logo">
+            </div>
+            <div id="sidebarSearch">
+                <label for="sidebarS">Search</label>
+                <form>
+                    <input type="text" id="sidebarS" placeholder="What are you looking for?">
+                    <button type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+                    </button>
+                </form>
+            </div>
+            <div id="sideBarSection1">
+                <a href="#">DINNER <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">MEALS <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">INGREDIENTS <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">OCCASIONS <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">CUISINES <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">KITCHEN TIPS <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">NEWS <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">FEATURES <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT sidebarBorderB">ABOUT US <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#">GET MAGAZINE</a>      
+            </div>
+            <div id="sideBarSection2">
+                <a href="#">
+                    <img src="/public/login.png" alt="Profile Image">
+                    <span class="hovered">Login</span>
+                </a>
+                <a href="#">
+                    Magazine 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg> 
+                </a>
+                <a href="#" class="hovered">
+                    Newsletters
+                </a>
+                <a href="#" class="hovered">
+                    Sweepstakes
+                </a>
+                <a href="#">
+                    <img src="/public/myrecipe.png" alt="My recipe image">
+                </a>
+            </div>
+            <div id="sideBarSection3">
+                <p>Follow Us</p>
+                <div>
+                    <i id="ic1" class="fa fa-facebook" aria-hidden="true"></i>
+                    <i id="ic2" class="fa fa-instagram" aria-hidden="true"></i>
+                    <i id="ic3" class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <i id="ic4" class="fa-brands fa-tiktok"></i>
+                    <i id="ic5" class="fa fa-youtube-play" aria-hidden="true"></i>
+                    <i id="ic6" class="fa-brands fa-flipboard"></i>
+                </div>
+            </div>
+        </aside>
+    </header>
+    <main>
+        <div id="section1">
+            <div id="snackBarContainer">
+                <a href="#">
+                    <h2>America's <span class="yellow">#1 Trusted Recipe Resource</span> since 1997</h2>
+                </a>
+                <div id="snackBarLeft">
+                    <a href="#">
+                        <div class="snackBarItem">
+                            <div class="snackStat">
+                                <h3><span><div class="before"></div>51K</span> Original Recipes</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="snackBarItem">
+                            <div class="snackStat">
+                                <h3><span><div class="before2"></div>7M+</span> Reviews and Rating</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="snackBarItem">
+                            <div class="snackStat">
+                                <h3><span><div class="before3"></div>67M</span> Home Cooks</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="newsfeed">
+                <a href="#">
+                    <div class="main">
+                        <img src="/public/sect1Main.webp" alt="#">
+                        <h4>DEALS & STEALS</h4>
+                        <h2>Walmart Slashed Prices on OXO, Rubbermaid, and Other Top Kitchen Brands Before Memorial Day</h2>
+                        <p>Get a headstart on outfitting your kitchen for summer! Price start at just $6</p>
+                    </div>
+                </a>
+                <div class="aside1">
+                    <h2 class="aside1Heading">The Latest</h2>
+                    <div class="aside1Item">
+                        <img src="/public/aside1image1.webp" alt="#">
+                        <div class="aside1ItemText">
+                            <p>FAST FOOD | 21 MINUTES AGO</p>
+                            <h3>Wendy's Is Giving Away Its New Frosty For Free This Week</h3>
+                        </div>
+                    </div>
+                    <div class="aside1Item aside1Border">
+                        <img src="/public/aside1image2.webp" alt="#">
+                        <div class="aside1ItemText">
+                            <p>KITCHEN TOOL & UTENSIL REVIEWS | 51 MINUTES AGO</p>
+                            <h3>Hurry! The Clever Secret to Perfectly Cooked Steak and Chicken Is 80% Right Now</h3>
+                        </div>
+                    </div>
+                    <div class="aside1Item">
+                        <img src="/public/aside1image3.webp" alt="#">
+                        <div class="aside1ItemText">
+                            <p>LETTUCE WRAPS RECIPE | 1 HOUR AGO</p>
+                            <h3>Taco Beef Lettuce Cups</h3>
+                        </div>
+                    </div>
+                    <div class="aside1Item aside1Border">
+                        <img src="/public/aside1image4.webp" alt="#">
+                        <div class="aside1ItemText">
+                            <p>GROCERY | 14 HOURS AGO</p>
+                            <h3>Doritos Just Dropped a New Flavor and Fans Say They 'Need About 10 Bags'</h3>
+                        </div>
+                    </div>
+                    <div class="aside1Item">
+                        <img src="/public/aside1image5.webp" alt="#">
+                        <div class="aside1ItemText">
+                            <p>GROCERY | 15 HOURS AGO</p>
+                            <h3>Walmart Just Announced It Expects to Raise Prices Due to Tariffs </h3>
+                        </div>
+                    </div>
+                    <div class="aside1button">
+                        <button>See More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section2">
+            <h2>Trending Now</h2>
+            <div class="trendingNow">
+                <div class="trend1 trends">
+                    <img src="/public/trend1.webp" alt="#">
+                    <div>
+                        <p>FOOD NEWS AND TRENDS</p>
+                        <h3>Meet MyRecipes: The Easiest Way to Keep Track of All Your Favorite Recipes (Including Ours!)</h3>
+                    </div>
+                </div>
+                <div class="trend2 trends">
+                    <img src="/public/trend2.webp" alt="#">
+                    <div>
+                        <p>BANKING</p>
+                        <h3>The Vintage Swedish Cake Recipe Everyone’s Talking About </h3>
+                    </div>
+                </div>
+                <div class="trend3 trends">
+                    <img src="/public/trend3.webp" alt="#">
+                    <div>
+                        <p>IN THE KITCHEN</p>
+                        <h3>16 Essential Southern Recipes, According to a Home Cook</h3>
+                    </div>
+                </div>
+                <div class="trend4 trends">
+                    <img src="/public/trend4.webp" alt="#">
+                    <div>
+                        <p>KITCHEN TOOL AND UTENSIL REVIEWS</p>
+                        <h3>Allrecipes Editors Share the 8 Best Kitchen Gadgets for Saving Time While Cooking</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section3">
+            <h2>Picnic Salad <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></h2>
+
+            <div class="picnic">
+                <div>
+                    <div class="picnic1 picnics">
+                        <img src="/public/picnic1.webp" alt="#">
+                        <p>NO MAYO</p>
+                        <h3>Sweet Restaurant Slaw</h3>
+                        <h5>★★★★★ <span>3,311 Ratings</span></h5>
+                    </div>
+                    <div class="picnic2 picnics">
+                        <img src="/public/picnic2.webp" alt="#">
+                        <p>NO MAYO</p>
+                        <h3>Sweet Restaurant Slaw</h3>
+                        <h5>★★★★★ <span>735 Ratings</span></h5>
+                    </div>
+                    <div class="picnic3 picnics">
+                        <img src="/public/picnic3.webp" alt="#">
+                        <p>NO MAYO</p>
+                        <h3>Sweet Restaurant Slaw</h3>
+                        <h5>★★★★★ <span>880 Ratings</span></h5>
+                    </div>
+                </div>
+                <div>
+                    <div class="picnic4 picnics">
+                        <img src="/public/picnic4.webp" alt="#">
+                        <p>NO MAYO</p>
+                        <h3>Sweet Restaurant Slaw</h3>
+                        <h5>★★★★★ <span>2,732 Ratings</span></h5>
+                    </div>
+                    <div class="picnic5 picnics">
+                        <img src="/public/picnic5.webp" alt="#">
+                        <p>NO MAYO</p>
+                        <h3>Sweet Restaurant Slaw</h3>
+                        <h5>★★★★★ <span>506 Ratings</span></h5>
+                    </div>
+                    <div class="picnic6 picnics">
+                        <img src="/public/picnic6.webp" alt="#">
+                        <p>NO MAYO</p>
+                        <h3>Sweet Restaurant Slaw</h3>
+                        <h5>★★★★★ <span>1,880 Ratings</span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section4">
+            <div class="search-container-wrapper">
+                <div class="search-header">
+                    <span class="chef-icon">👨‍🍳</span>
+                    <h2>What would you like to cook?</h2>
+                </div>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search here...">
+                    <button class="search-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </button>
+                </div>    
+            </div>
+            <div class="popular-section">
+                <div class="popular-header">Popular Searches</div>
+                <a href="#" class="popular-tag">Chicken</a>
+                <a href="#" class="popular-tag">Smoothies</a>
+                <a href="#" class="popular-tag">Banana Bread</a>
+                <a href="#" class="popular-tag">Lasagna</a>
+                <a href="#" class="popular-tag">Pancakes</a>
+                <a href="#" class="popular-tag">Meatloaf</a>
+                <a href="#" class="popular-tag">Cookies</a>
+                <a href="#" class="popular-tag">Chili</a>
+            </div>
+        </div>
+        <div id="section5">
+        <div class="container">
+            <!-- Left Column -->
+            <div class="left-column">
+                <h2>HOME OF THE HOME COOK</h2>
+                <p>We know our community (that's you!) is the key ingredient that sets us apart. <a href="#" class="learn-more">LEARN MORE <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></a></p>
+                
+                <div class="user-highlight">
+                    <div class="map-container">
+                        <img src="/public/avatar1.png" alt="#">
+                    </div>
+                    <div class="user-content">
+                        <h3>Chicken Biryani</h3>
+                        <p class="user-quote">"I've made this recipe many times and I love it. It's so flavorful!"</p>
+                        <p class="user-info">MASSIMO SACCOMANDO, QUEBEC, JOINED 2020</p>
+                        <div class="dots-navigation">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot active"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook-icon lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>3.9M
+                    </a>
+                    <a href="#" class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg> 2.2M
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-pinterest-p"></i> 1.3M
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-tiktok"></i> 678.4K
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-youtube"></i> 1.8M
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="right-column">
+                <h2>OUR PEOPLE</h2>
+                <p>Testing, tasting, editing, and tasting again—our food pros are dedicated to showcasing the best of what you, our home cook heroes, are doing in your kitchens.</p>
+                
+                <div class="team-section">
+                    <div class="team-header">
+                        <span class="team-title">EDITORIAL LEADERSHIP</span>
+                        <i class="fas fa-arrow-right" style="color: #e74c3c;"></i>
+                    </div>
+                    <div class="team-members">
+                        <div class="team-member editorial-1">
+                            <img src="/public/el1.png" alt="Editorial Member 1">
+                        </div>
+                        <div class="team-member editorial-2">
+                            <img src="/public/el2.webp" alt="Editorial Member 2">
+                        </div>
+                        <div class="team-member editorial-3">
+                            <img src="/public/el3.webp" alt="Editorial Member 3">
+                        </div>
+                        <div class="team-member editorial-4">
+                            <img src="/public/el4.webp" alt="Editorial Member 4">
+                        </div>
+                        <div class="team-member editorial-5">
+                            <img src="/public/el5.webp" alt="Editorial Member 5">
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="teamSelectionCollection">
+                    <div class="team-section">
+                        <div class="team-header">
+                            <span class="team-title">CONTRIBUTORS</span>
+                            <i class="fas fa-arrow-right" style="color: #e74c3c;"></i>
+                        </div>
+                        <div class="team-members">
+                            <div class="team-member contributor-1">
+                                <img src="/public/c1.webp" alt="Contributor 1">
+                            </div>
+                            <div class="team-member contributor-2">
+                                <img src="/public/c2.webp" alt="Contributor 2">
+                            </div>
+                            <div class="team-member contributor-3">
+                                <img src="/public/c3.webp" alt="Contributor 3">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="team-section">
+                        <div class="team-header">
+                            <span class="team-title">TEST KITCHEN</span>
+                            <i class="fas fa-arrow-right" style="color: #e74c3c;"></i>
+                        </div>
+                        <div class="team-members">
+                            <div class="team-member kitchen-1">
+                                <img src="/public/tk1.webp" alt="Test Kitchen Member 1">
+                            </div>
+                            <div class="team-member kitchen-2">
+                                <img src="/public/tk2.webp" alt="Test Kitchen Member 2">
+                            </div>
+                            <div class="team-member kitchen-3">
+                                <img src="/public/tk3.webp" alt="Test Kitchen Member 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div id="section6">
+            <div id="recipes">
+                <h5>RECIPES</h5>
+                <h2>Take It Outside</h2>
+                <p>Fire up the 'cue and try the best grilled chicken, ribs and burger recipes, plus marinades, rubs and dipping sauces</p>
+            </div>
+        </div>
+        <div id="section7">
+            <div id="mealCategory">
+                <div class="meals">
+                    <img src="/public/cat1.webp" alt="#">
+                    <div>
+                        <h5>MEAL PLANNING AND MENUS</h5>
+                        <h2>Easy Camping Menu for Your Weekend Getaway</h2>
+                    </div>
+                </div>
+                <div class="meals aside1Border">
+                    <img src="/public/cat2.webp" alt="#">
+                    <div>
+                        <h5>CAMPING</h5>
+                        <h2>10 Big-Batch Camping Meals to Feed a Crowd</h2>
+                    </div>
+                </div>
+                <div class="meals">
+                    <img src="/public/cat3.webp" alt="#">
+                    <div>
+                        <h5>CAMPING</h5>
+                        <h2>15 Easy 5-Ingredient (Or Fewer) Camping Recipes</h2>
+                    </div>
+                </div>
+                <div class="meals aside1Border">
+                    <img src="/public/cat4.webp" alt="#">
+                    <div>
+                        <h5>CAMPING</h5>
+                        <h2>20 Campfire Desserts</h2>
+                    </div>
+                </div>
+                <div class="meals">
+                    <img src="/public/cat5.webp" alt="#">
+                    <div>
+                        <h5>CAMPING</h5>
+                        <h2>Breakfasts for the Great Outdoor</h2>
+                    </div>
+                </div>
+                <div class="meals aside1Border">
+                    <img src="/public/cat6.webp" alt="#">
+                    <div>
+                        <h5>CAMPING</h5>
+                        <h2>High-Energy Camping Snack</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="adv1"></div>
+        </div>
+        <div id="section8">
+            <h2>May Days <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></h2>
+            <div class="mayDay">
+                <div class="aside2">
+                    <div class="aside2Item">
+                        <img src="/public/aside2image1.webp" alt="#">
+                        <div class="aside2ItemText">
+                            <h3>Our 20 Best Potluck Dessert Recipes of All Time Will Make You a Potluck Legend</h3>
+                        </div>
+                    </div>
+                    <div class="aside2Item">
+                        <img src="/public/aside2image2.webp" alt="#">
+                        <div class="aside2ItemText">
+                            <h3>30 Graduation Party Foods For an A+ Celebration</h3>
+                        </div>
+                    </div>
+                    <div class="aside2Item">
+                        <img src="/public/aside2image3.webp" alt="#">
+                        <div class="aside2ItemText">
+                            <h3>28 Refreshing Lemonade Recipes to Quench Your Thirst</h3>
+                        </div>
+                    </div>
+                    <div class="aside2Item">
+                        <img src="/public/aside2image4.webp" alt="#">
+                        <div class="aside2ItemText">
+                            <h3>Memorial Day Recipes You Can Make in Your 9x13 Dish'</h3>
+                        </div>
+                    </div>
+                </div>
+                <a class="main2" href="#">
+                    <div>
+                        <img src="/public/sect2Main.webp" alt="#">
+                        <h4>DEALS & STEALS</h4>
+                        <h3>25 Memorial Day Picnic Recipes</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="section9">
+            <h2>What We’re Saving to MyRecipes <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right-icon lucide-move-right"><path d="M18 8L22 12L18 16"/><path d="M2 12H22"/></svg></h2>
+            <div class="picnic">
+            <div>
+                <div class="picnic1 picnics">
+                    <img src="/public/SR1.webp" alt="#">
+                    <p>CHICKEN</p>
+                    <h3>Chef John's Pulled Chicken Shawarma</h3>
+                    <h5>★★★★★ <span>3,311 Ratings</span></h5>
+                </div>
+                <div class="picnic2 picnics">
+                    <img src="/public/SR2.webp" alt="#">
+                    <p>DESSERT</p>
+                    <h3>Coffee Panna Cotta</h3>
+                </div>
+                <div class="picnic3 picnics">
+                    <img src="/public/SR3.webp" alt="#">
+                    <p>CHEESEBURGER RECIPES</p>
+                    <h3>Michigan Olive Burger</h3>
+                    <h5>★★★★★ <span>880 Ratings</span></h5>
+                </div>
+            </div>
+            <div>
+                <div class="picnic4 picnics">
+                    <img src="/public/SR4.webp" alt="#">
+                    <p>RHUBARB CRISPS AND CRUMBLES RECIPES</p>
+                    <h3>Strawberry Rhubarb Crumble</h3>
+                </div>
+                <div class="picnic5 picnics">
+                    <img src="/public/SR5.webp" alt="#">
+                    <p>CHICKEN LEG RECIPES</p>
+                    <h3>Hot Honey Drumsticks</h3>
+                    <h5>★★★★★ <span>506 Ratings</span></h5>
+                </div>
+                <div class="picnic6 picnics">
+                    <img src="/public/SR6.webp" alt="#">
+                    <p>TOMATO PASTA SALAD RECIPES</p>
+                    <h3>Bloody Mary Pasta Salad</h3>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="section10">
+            <div id="mexican">
+                <h5>MEXICAN</h5>
+                <h2>Authentic Mexican Recipes</h2>
+                <p>Explore the varied cuisine of Mexico with these tried and true recipes, from simple tortillas, to home-made mole, tamale, and horchata recipes</p>
+            </div>
+        </div>
+        <div id="section11">
+            <div id="mealCategory">
+                <div class="meals">
+                    <img src="/public/mex1.webp" alt="#">
+                    <div>
+                        <h5>MEXICAN</h5>
+                        <h2>13 Best Mexican Recipes for the Grill</h2>
+                    </div>
+                </div>
+                <div class="meals aside1Border">
+                    <img src="/public/mex2.webp" alt="#">
+                    <div>
+                        <h5>TEX-MEX</h5>
+                        <h2>21 Best Tex-Mex Recipes</h2>
+                    </div>
+                </div>
+                <div class="meals">
+                    <img src="/public/mex3.webp" alt="#">
+                    <div>
+                        <h5>FLAN RECIPES</h5>
+                        <h2>7 Absolutely Irresistible Mexican Flan Recipes</h2>
+                    </div>
+                </div>
+                <div class="meals aside1Border">
+                    <img src="/public/mex4.webp" alt="#">
+                    <div>
+                        <h5>DRINKS</h5>
+                        <h2>15 Cool and Refreshing Agua Fresca Recipes</h2>
+                    </div>
+                </div>
+                <div class="meals">
+                    <img src="/public/mex5.webp" alt="#">
+                    <div>
+                        <h5>MEXICAN</h5>
+                        <h2>20 Easy Mexican Dishes with 5 Ingredients or Less</h2>
+                    </div>
+                </div>
+                <div class="meals aside1Border">
+                    <img src="/public/mex6.webp" alt="#">
+                    <div>
+                        <h5>MAGARITA RECIPES</h5>
+                        <h2>22 Fruity Margarita Recipes</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="adv1"></div>
+        </div>
+    </main>
+    <footer>
+        <div id="footerLogo">
+            <img src="/public/logo.png" alt="#">
+            <button>NEWSLETTER</button>
+            <div id="follow">
+                <p>Follow Us:</p>
+                <div id="icons">
+                    <i id="ic1" class="fa fa-facebook" aria-hidden="true"></i>
+                    <i id="ic2" class="fa fa-instagram" aria-hidden="true"></i>
+                    <i id="ic3" class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <i id="ic4" class="fa-brands fa-tiktok"></i>
+                    <i id="ic5" class="fa fa-youtube-play" aria-hidden="true"></i>
+                    <i id="ic6" class="fa-brands fa-flipboard"></i>
+                </div>
+            </div>
+        </div>
+        <div id="footerLinkContainer">
+            <div id="fL1">
+                <ul>
+                    <li class="hovered">DINNERS</li>
+                    <li class="hovered">MEALS</li>
+                    <li class="hovered">INGREDIENTS</li>
+                    <li class="hovered">OCCASIONS</li>
+                </ul>
+                <ul>
+                    <li class="hovered">CUISINES</li>
+                    <li class="hovered">KITCHEN TIPS</li>
+                    <li class="hovered">NEWS</li>
+                    <li class="hovered">FEATURES</li>
+                </ul>
+            </div>
+            <div id="fL2">
+                <div id="sub1">
+                    <ul>
+                        <li class="hovered">About Us</li>
+                        <li class="hovered">Privacy Policy</li>
+                        <li class="hovered">Terms of Service</li>
+                        <li class="hovered">Careers</li>
+                    </ul>
+                </div>
+                <div id="sub2">
+                    <ul>
+                        <li class="hovered">Editorial Process</li>
+                        <li class="hovered">Product Vetting</li>
+                        <li class="hovered">Advertise</li>
+                        <li class="hovered">Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="footerend">
+        <img src="/public/dotdash.png" alt="">
+        <p>All recipes is part of the Dotdash Meredith publishing family.</p>
+    </div>
+    <script src="https://kit.fontawesome.com/25de32bc00.js" crossorigin="anonymous"></script>
+</body>
+</html>

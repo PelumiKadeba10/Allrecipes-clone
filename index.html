@@ -22,7 +22,7 @@
 </head>
 <body>
     <div class="full-nav">
-      <div class="navbar">
+      <nav class="navbar">
           <div class="logo-search">
             <img src="/images/logo.png" alt="AllRecipes Logo" class="logo">
             <div class="search-box">
@@ -48,7 +48,7 @@
             <a href="#" class="new">Sweepstakes</a>
             <a href="#"><img src="/images/end.png" class="end-logo" alt="end-logo"></a>
           </div>
-      </div>
+      </nav>
       <div class="categories">
         <div class="cat-wrapper">
           <div class="dropdown">
@@ -144,6 +144,89 @@
         </div>
       <a class="head" href="#">GET THE MAGAZINE</a>
       </div>
+      <nav id="nav3">
+            <div id='logo3'>
+                <label for="sidebarToggle">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <img src="/images/logo.png" id="logo" alt="All recipes logo">
+            </div>
+            <ul>
+                <div class="search-box">
+                  <input type="text" placeholder="Find a recipe or ingredient">
+                  <button><i class="fas fa-search"></i></button>
+                </div>
+                <a href="#">
+                  <img src="/images/user.png" alt="logg">
+                  Log In
+                </a>
+                <!-- <a href="#">
+                    <li class="nav1links">
+                        <img src="/images/end.png" alt="My Recipe">
+                    </li>
+                </a> -->
+            </ul>
+        </nav>
+        <input type="checkbox" name="sidebarToggle" id="sidebarToggle" style="display:none;">
+        <aside id="sidebar">
+            <div id="sidebarHeader">
+                <label for="sidebarToggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x-icon lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                </label>
+                <img src="/images/logo.png" alt="All recipes logo">
+            </div>
+            <div id="sidebarSearch">
+                <label for="sidebarS">Search</label>
+                <form>
+                    <input type="text" id="sidebarS" placeholder="What are you looking for?">
+                    <button type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+                    </button>
+                </form>
+            </div>
+            <div id="sideBarSection1">
+                <a href="#">DINNER <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">MEALS <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">INGREDIENTS <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">OCCASIONS <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">CUISINES <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">KITCHEN TIPS <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">NEWS <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT">FEATURES <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#" class="sidebarBorderT sidebarBorderB">ABOUT US <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg></a>
+                <a href="#">GET MAGAZINE</a>      
+            </div>
+            <div id="sideBarSection2">
+                <a href="#">
+                    <img src="/images/user.png" alt="Profile Image">
+                    <span class="hovered">Login</span>
+                </a>
+                <a href="#">
+                    Magazine 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg> 
+                </a>
+                <a href="#" class="hovered">
+                    Newsletters
+                </a>
+                <a href="#" class="hovered">
+                    Sweepstakes
+                </a>
+                <a href="#">
+                    <img src="/images/end.png" alt="My recipe image">
+                </a>
+            </div>
+            <div id="sideBarSection3">
+                <p>Follow Us</p>
+                <div>
+                    <i id="ic1" class="fa fa-facebook" aria-hidden="true"></i>
+                    <i id="ic2" class="fa fa-instagram" aria-hidden="true"></i>
+                    <i id="ic3" class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    <i id="ic4" class="fa-brands fa-tiktok"></i>
+                    <i id="ic5" class="fa fa-youtube-play" aria-hidden="true"></i>
+                    <i id="ic6" class="fa-brands fa-flipboard"></i>
+                </div>
+            </div>
+        </aside>
     </div>
 
     <div class="ads-container">
